@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import com.baeldung.lss.security.MyUserDetailsService;
 
 @EnableWebSecurity
-@ComponentScan({ "org.baeldung.lss.security" })
+@ComponentScan({ "com.baeldung.lss.security" })
 public class LssSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
